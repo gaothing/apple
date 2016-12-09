@@ -1,0 +1,341 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.ad{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+.ad .add{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px;
+}
+.ad .add span{
+	float: right;
+	color: #ccc;
+	font-size: 8px;
+}
+.header{
+	width: 100%;
+	height: 44px;
+	background: #000;
+}
+@media  screen and (max-width:735px ) {
+	.header{
+		display: none;
+	}
+}
+.header .main{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+@media screen and  (min-width: 1000px) {
+	.header .main{
+		width: 1000px;
+	}
+}
+@media only screen and (min-width: 640px) and (max-width: 1000px) {
+	.header .main{
+		width: 100%;
+	}
+}
+@media  screen and (max-width:640px ) {
+	.header .main{
+		display: none;
+	}
+}
+.header .main .main-eve{
+	float: left;
+	width: 11.111%;
+	height: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 44px;
+	font-family: "微软雅黑";
+}
+.main .main-eve a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	color: #fff;
+	 font-family:"iconfont" !important;
+	font-weight: bold;
+}
+.main .main-eve1 a{
+	font-size: 28px;
+	color: #fff;
+	 font-family:"iconfont" !important;
+}
+.banner{
+	width: 100%;
+	height:auto ;
+	overflow: hidden;
+}
+.banner img{
+	width: 100%;
+}
+.imgsthree{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.imgsthree .imgo{
+	float: left;
+	height: auto;
+	box-sizing: border-box;
+	border-top: 2px solid #fff;
+	border-top: 2px solid #fff;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	overflow: hidden;
+}
+.imgsthree .imgo img{
+	width: 100%;
+	/*height: 100%;*/
+
+}
+@media  screen and (max-width:735px ) {
+	.imgsthree .imgo{
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.imgsthree .imgo{
+		width: 50%;
+	}
+}
+@media  screen and (min-width:1068px ) {
+	.imgsthree .imgo{
+		width: 25%;
+	}
+}
+.detail{
+	width: 71.74%;
+	height: 20px;
+	padding: 16px 0;
+	margin:  0 auto;
+	line-height: 20px;
+	font-size: 10px;
+	color: #999;
+	font-family: "苹方";
+	border-bottom: 1px solid #ccc;
+}
+.about{
+	width: 71.74%;
+	height: 220px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.about .nav{
+	width: 100%;
+	height: 100%;
+	
+}
+.about .nav .footeve{
+	float: left;
+	width: 20%;
+	height: 100%;
+	
+}
+@media  screen and (max-width:735px ) {
+	.about {
+		display: none;
+	}
+}
+@media  screen and (max-width:735px ) {
+	.about .nav .footeve{
+		display: none;
+	}
+}
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.about .nav .footeve{
+		width: 20%;
+	}
+}
+@media  screen and (min-width:1068px ) {
+	.about .nav .footeve{
+		width: 20%;
+	}
+}
+.about .nav .footeve span{
+	display: block;
+	font-size: 12px;
+	color: #9E9E9E;
+	font-weight: bold;
+	font-family: "苹方";
+}
+.about .nav .footeve a{
+	padding: 2px 0;
+	display: block;
+	font-size: 10px;
+	color: #9E9E9E;
+	font-family: "苹方";
+}
+.copy{
+	width: 71.74%;
+	height: 20px;
+	/*padding: 10px 0;*/
+	margin:  0 auto;
+	line-height: 20px;
+	font-size: 10px;
+	color: #9E9E9E;
+	margin-top:30px ;
+	font-family: "microsoft sans serif";
+}
+.change{
+	display: block;
+}
+@media  screen and (max-width:735px ) {
+	.change{
+		display: block;
+	}
+}
+.copy span{
+	font-size: 8px;
+	color: #9E9E9E;
+	font-family: "苹方";
+}
+.copy a{
+	font-size: 8px;
+	color: #7B6A77;
+	font-family: "苹方";
+	padding:0 1% ;
+}
+/*响应式*/
+.top{
+	width: 100%;
+	height: 48px;
+	background: #000;
+	display: none;
+}
+@media  screen and (max-width:735px ) {
+	.top{
+		display: block;
+	}
+}
+.top a{
+	display: block;
+	width: 48px;
+	height: 48px;
+	font-size: 26px;
+	color: #fff;
+	float: left;
+	line-height: 48px;
+	text-align: center;
+	 font-family:"iconfont" !important;
+}
+.top .mune{
+	
+	float: left;
+}
+.top .ico{
+	margin-left: 34%;
+}
+.top .sou{
+	float: right;
+}
+.about-ph{
+	width: 71.74%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: none;
+}
+@media  screen and (max-width:735px ) {
+	.about-ph{
+		display: block;
+	}
+}
+.about-ph .pheve{
+	width:100%;
+	height: 38px;
+	line-height: 38px;
+	color: #000;
+	font-family: "苹方";
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+}
+.about-ph .pheve a{
+	float: left;
+	display: block;
+	width: 60%;
+	height: 100%;
+	color: #333;
+}
+.about-ph .pheve .ico3{
+	float: right;
+	width: 28px;
+	height: 28px;
+	font-size: 14px;
+	color: #333;
+	line-height: 48px;
+	text-align: center;
+	 font-family:"iconfont" !important;
+}
+/*顶部菜单*/
+.sl{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	background: #000;
+	transform: scale(0);
+	transform-origin: left top;
+
+	/*z-index: 0;*/
+} 
+.sl-act{
+	transition: all 0.6s linear;
+	transform: scale(1);
+}
+.sl-act2{
+	transition: all 0.6s linear;
+	transform: scale(0);
+}
+.sl .sltop{
+	width: 100%;
+	height:auto;
+	overflow: hidden;
+	
+}
+.sltop .close{
+	float: left;
+	
+	width: 48px;
+	height: 48px;
+	font-size: 26px;
+	color: #fff;
+	line-height: 48px;
+	text-align: center;
+	font-family:"iconfont" !important;
+
+}
+.sltop .ico2{
+	float: right;
+	width: 48px;
+	height: 48px;
+	/*margin-left: 300px;*/
+	color: #fff;
+}
+.sl .all{
+	width:90%;
+	margin: auto;
+	height: 38px;
+	line-height: 38px;
+	color: #FFF;
+	font-family: "苹方";
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+}
